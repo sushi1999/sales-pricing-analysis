@@ -16,7 +16,9 @@ This project looks at a fictional US Superstore's sales data to find out how dis
 - **Granularity:** each row is a single product line item within a customer order (not a full order).
 - **Key fields used:** `Sales`, `Profit`, `Discount`, `Quantity`, `Category`, `Sub-Category`, `Segment`, `Region`.
 
-**Takeaway:** Technology is by far the most discount-sensitive category, while Office Supplies absorbs discounting with the least profit damage. A single storewide discount policy likely isn't optimal — category-specific discount ceilings would better protect margin, especially on Technology products.
+## Conclusion
+
+Technology is by far the most discount-sensitive category, while Office Supplies absorbs discounting with the least profit damage. A single storewide discount policy likely isn't optimal — category-specific discount ceilings would better protect margin, especially on Technology products.
 
 ## Limitations
 
