@@ -13,18 +13,11 @@ This project looks at a fictional US Superstore's sales data to find out how dis
 
 - **Source:** [Superstore Sales dataset](https://www.kaggle.com/) (Kaggle) — a commonly used teaching dataset modeled on a fictional US-based superstore chain.
 - **Size:** 9,994 order-line rows × 21 columns (raw), 20 columns after cleaning.
-- **Granularity:** each row is a single product line item within a customer order (not a full order).
-- **Key fields used:** `Sales`, `Profit`, `Discount`, `Quantity`, `Category`, `Sub-Category`, `Segment`, `Region`.
 
 ## Conclusion
 
-Not all products handle discounts the same way. Using an ANCOVA model (Discount × Category), I found that Technology products get hit the hardest by discounts.
-Because Technology products lose profit far faster than any other category under discounts, we should strictly cap Tech discounts to protect our bottom line.
+These findings suggest that discount strategies should differ by product category. Technology products appear to be much more sensitive to discounting, while Office Supplies are less affected. Therefore, managers should avoid offering large discounts on Technology products and instead consider category-specific pricing and promotional strategies.
 
-
-## Limitations
-
-- This is observational transactional data, not a designed experiment — discount levels were not randomly assigned, so results describe association, not causation.
 
 ## References
 
