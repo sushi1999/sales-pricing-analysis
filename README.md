@@ -5,7 +5,7 @@ This project looks at a fictional US Superstore's sales data to find out how dis
 
 ## Overview
 
-1. **Sales overviewt** — by product category, sub-category, customer segment, and region.
+1. **Sales overview** — by product category, sub-category, customer segment, and region.
 2. **Whether discounting hurts profit** — via simple linear regression of Profit on Discount.
 3. **Whether the discount penalty differs by product category** — via an ANCOVA model with a Discount × Category interaction.
 
